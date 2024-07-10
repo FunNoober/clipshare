@@ -13,3 +13,9 @@ I needed a self-hostable service that could easily upload and share clips with m
 ### Tech Stack:
 - Svelte Kit
 - Pocketbase
+- Bootstrap CSS
+
+### Roadmap
+- [ ] Saving videos
+- [ ] Comments
+- [ ] Thumbnail Generation 
