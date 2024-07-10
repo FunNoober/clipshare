@@ -19,3 +19,11 @@ I needed a self-hostable service that could easily upload and share clips with m
 - [ ] Saving videos
 - [ ] Comments
 - [ ] Thumbnail Generation 
+  
+### Installation:
+1. Place a Pocketbase executable file in `bin`
+2. Serve Pocketbase
+3. Open `src/lib/config.js`
+4. Change `POCKETBASE_URL` to the URL that your Pocketbase is being hosted on
+5. Run `npm run build`
+6. Serve `build/index.js` using `node index.js`, `pm2 start index.js`, `nodemon index.js`, etc
